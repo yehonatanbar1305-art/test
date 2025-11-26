@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #000;
+    box-shadow: 0 0 10px #00ffe5;
+}
+
+nav .logo {
+    color: #00ffe5;
+    font-size: 26px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: #00ffe5;
+    transform: scale(1.1);
+}
+
+/* אזור ראשי */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 20px #00ffe5;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #00ffe5;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* כרטיסים */
+.card {
+    background: #1a1a1a;
+    margin: 40px auto;
+    padding: 25px;
+    width: 85%;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+.card.big {
+    font-size: 20px;
+}
+
+.game-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game {
+    background: #222;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+    transition: 0.2s;
+}
+
+.game:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00ffe5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #00ffe5;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #00cfc0;
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #aaa;
+}
